@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio </title>
+<link rel="icon" href="C:\Users\kirut\OneDrive\Desktop\My Project\Pictures\Icon.jpg" >
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<style>
+   
+
+        h1 {
+          font-family: 'poppins', sans-serif;
+            font-size: 34px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        h2{
+          font-family: 'poppins', sans-serif;
+        }
+        h3{
+          font-family: 'poppins', sans-serif;
+        }
+
+        p {
+          font-family: 'poppins', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+  .portfolio-title {
+    font-family: 'poppins', sans-serif;
+    
+    color: black;
+    background-color:  #1e3a8a;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+  }
+  .name{
+    font-family: 'poppins', sans-serif;
+    display:inline-block;
+    font-family: 'poppins', sans-serif;
+    
+
+  }
+  .resume-container {
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .resume-box{
+    font-family: 'poppins', sans-serif;
+    display: inline-block;
+    padding: 14px 35px;
+
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    transition: 0.3s ease;
+    text-align: center;
+    font-size: 16px;
+  }
+  .resume-box:hover {
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+   
+    transform: translateY(-8px);
+    transition: 0.3s ease;
+  }
+  .Container{
+   font-family: 'poppins', sans-serif;
+    display:flex;
+    font-weight:bold;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    
+  }
+  .pro1{
+    font-family: 'poppins', sans-serif;
+    font-weight: normal;
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    
+  }
+  .pro1:hover {
+    font-family: 'poppins', sans-serif;
+    transform: translateY(-8px);
+}
+.list{
+  font-family: 'poppins', sans-serif;
+}
+  
+
+  
+   
+</style>
+</head>
+
+    <body>
+    <center>
+    <h1 class="portfolio-title">Portfolio</h1>
+    <img src="C:\Users\kirut\OneDrive\Desktop\My Project\Pictures\Kiruthika_professional.jpg" alt="Professional Photo" width="200" height="200">
+    </center>
+    
+    <center>
+    <h2 class="name" style="display: inline;">Kiruthika Devi D</h2>
+    </center>
+    
+    <p style="display: inline;">Electronics and Communication Engineering student with specialization in Embedded Systems and hardware-software 
+integration. Experienced in C and Java programming languages with practical knowledge in front-end web development tools such as 
+HTML, CSS, and JavaScript. Strong problem-solving skills with a passion for developing scalable solutions and improving technical 
+skills</p>
+
+  <div>
+  <h3 class="portfolio-title">Technical Skills</h3>
+  <div>
+    <ol style="font-weight: bold; display: inline;font-family: 'poppins', sans-serif;">Programming Languages:</ol>
+    <li>C Programming</li>
+    <li>Java</li>
+  </div>
+  <ol style="font-weight: bold; display: inline;font-family: 'poppins', sans-serif;">Web Development:</ol>
+  <li>HTML</li>   
+  <li>CSS</li>
+  <li>JavaScript</li>
+  </div>
+    <br>
+    <h3 class="portfolio-title"style="text-align: center;font-family: 'poppins', sans-serif;">Projects</h3>
+      <div class="Container">
+        <div class="pro1">
+        <div class="duo" style="font-weight: bold;font-family: 'poppins', sans-serif;">DUOBOT</div>
+        <p>Developed a dual-mode (Manual & Autonomous) pick-and-place robot using ESP32. Implemented Bluetooth
+communication, IR-based obstacle detection, and Wi-Fi camera vision, controlling a 4-DOF servo robotic arm using
+embedded C and PWM for precise motion control.</p>
+        </div>
+         
+        <div class="pro1">
+          <div class="ai" style="font-weight: bold;font-family: 'poppins', sans-serif;">AI Mirror </div>
+          <p>Developed a computer vision–based hand hygiene compliance system using Python and OpenCV with face detection
+to identify medical staff and log their details automatically. Implemented image processing to analyze foam levels
+during handwashing and designed a dashboard to store and display compliance data.</p>
+        </div>
+        <div class="pro1">
+          <div class="thera" style="font-weight: bold;font-family: 'poppins', sans-serif; ">TheraFun </div>
+          <p>Developed an interactive therapeutic device to enhance sensory engagement, motor coordination, and guided
+physiotherapy activities for children with autism, focusing on structured learning and rehabilitation support.</p>
+        </div>
+       
+       
+      </div>
+      <div class="certificates">
+        <h3 class="portfolio-title"style="text-align: center;font-family: 'poppins', sans-serif;">Certificates</h3>
+        <ol>
+          <li class="container"><a href="https://www.hackerrank.com/certificates/53636c9943d2" target="_blank">Problem Solving(Basic)-Hackerrank Certificate</a></li>
+        </ol>
+      </div>
+      <div>
+        <h3 class="portfolio-title"style="text-align: center;font-family: 'poppins', sans-serif;">Achievements</h3>
+        <ul class="list">
+          
+          <li>1 Prize in Techno Spectrum Innovative Forum Paper Presentation - Sri Easwar College of Engineering and Technology</li>
+          <li>Special Prize in AI in Auction Paper Presentation for project AI MIRROR - Sri Easwar College of Engineering and Technology</li>
+          <li>1 Prize in BIOBLITZ Paper Presentation - SNS College of Technology</li>
+          <li> Participated in “NEXATHON” 24 hours Hackathon - KCG College of Technology.</li>
+          </ul>
+      </div>
+        
+     <div class="resume-container">
+       <a href="https://drive.google.com/file/d/1fOPm96Je0_b9UFcEL1bJOJwwuYhvYLIY/view?usp=drive_link" target="_blank" class="resume-box"> Resume </a>
+     </div>
+      
+      
+      <div  style="text-align:center ;">
+        <h2 class="portfolio-title" style="font-family: 'poppins', sans-serif;">Contact Information</h2>
+        <p>Email: 
+          <a href="mailto:dhanabalkiruthikadevi@gmail.com">dhanabalkiruthikadevi@gmail.com</a></p>
+        <p>Phone: +91 8973737491</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/kiruthika-devi-d" target="_blank">linkedin.com/in/kiruthika-devi</a></p>
+      </div>
+      
+   
+ 
+    </body>
+</html>
